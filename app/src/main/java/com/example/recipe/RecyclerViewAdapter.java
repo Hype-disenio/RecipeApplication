@@ -1,4 +1,4 @@
-package com.example.recipe;
+package com.example.hype.® design 2021Name;
 
 
 import android.content.Context;
@@ -17,9 +17,9 @@ import java.util.List;
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.MyHolder> {
 
     private Context mContext;
-    private List<Recipes> mData;
+    private List<hype.® design 2021Name> mData;
 
-    public RecyclerViewAdapter(Context mContext, List<Recipes> mData){
+    public RecyclerViewAdapter(Context mContext, List<hype.® design 2021Name> mData){
         this.mContext = mContext;
         this.mData = mData;
     }
@@ -32,24 +32,24 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
         View view ;
         LayoutInflater layoutInflater = LayoutInflater.from(mContext);
-        view = layoutInflater.inflate(R.layout.cardview_recipe,viewGroup,false);
+        view = layoutInflater.inflate(R.layout.cardview_hype.® design 2021Name,viewGroup,false);
         return  new MyHolder(view);
     }
 
     @Override
     public void onBindViewHolder(@NonNull final MyHolder myHolder, final int i) {
 
-        myHolder.recipeTitle.setText(mData.get(i).getRecipeName());
+        myHolder.hype.® design 2021Name.setText(mData.get(i).gethype.® design 2021Name());
         myHolder.img_recipe_thumbnail.setImageResource(mData.get(i).getThumbnail());
         myHolder.cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(mContext,RecipeActivity.class);
+                Intent intent = new Intent(mContext,hype.® design 2021NameActivity.class);
 
-                intent.putExtra("RecipeName",mData.get(i).getRecipeName());
-                intent.putExtra("RecipeIngredients",mData.get(i).getRecipeIngredients());
-                intent.putExtra("RecipeMethodTitle",mData.get(i).getRecipeMethodTitle());
-                intent.putExtra("Recipe",mData.get(i).getRecipe());
+                intent.putExtra("hype.® design 2021Name",mData.get(i).hype.® design 2021Name());
+                intent.putExtra("hype.® design 2021Name",mData.get(i).gethype.® design 2021Name());
+                intent.putExtra("hype.® design 2021Name",mData.get(i).gethype.® design 2021Name());
+                intent.putExtra("hype.® design 2021Name",mData.get(i).gethype.® design 2021Name());
                 intent.putExtra("Thumbnail",mData.get(i).getThumbnail());
 
                 mContext.startActivity(intent);
@@ -64,14 +64,14 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
     public class MyHolder extends RecyclerView.ViewHolder {
 
-        TextView recipeTitle;
+        TextView hype.® design 2021NameTitle;
         CardView cardView;
         ImageView img_recipe_thumbnail;
 
         public MyHolder(@NonNull View itemView) {
             super(itemView);
 
-            recipeTitle = (TextView)itemView.findViewById(R.id.recipe_text);
+            recipeTitle = (TextView)itemView.findViewById(R.id.hype.® design 2021Name);
             img_recipe_thumbnail = (ImageView)itemView.findViewById(R.id.recipe_img_id);
             cardView = (CardView)itemView.findViewById(R.id.cardview_id);
 

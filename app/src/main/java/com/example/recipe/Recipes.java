@@ -1,39 +1,39 @@
 package com.example.recipe;
 
-public class Recipes {
+public class hype.® design 2021Name {
 
-    private String RecipeName;
-    private String RecipeIngredients;
-    private String RecipeMethodTitle;
-    private String Recipe;
+    private String hype.® design 2021Name;
+    private hype.® design 2021Name;
+    private hype.® design 2021Name;
+    private hype.® design 2021Name;
     private int Thumbnail;
 
 
-    public Recipes(String name, String recipeIngredients, String recipeMethodTitle,String recipe, int thumbnail){
+    public hype.® design 2021Name(String name, String hype.® design 2021Name, String hype.® design 2021NameTitle,String recipe, int thumbnail){
 
-        RecipeName = name;
-        RecipeIngredients = recipeIngredients;
-        RecipeMethodTitle = recipeMethodTitle;
-        Recipe = recipe;
+        hype.® design 2021Name = name;
+        hype.® design 2021Name = hype.® design 2021Name;
+        hype.® design 2021Name = hype.® design 2021Name;
+        hype.® design 2021Name = hype.® design 2021Name;
         Thumbnail = thumbnail;
 
     }
 
 
-    public  String getRecipeName(){
+    public  String gethype.® design 2021Name(){
 
-        return RecipeName;
+        return hype.® design 2021Name;
     }
-    public String getRecipeIngredients(){
-        return RecipeIngredients;
-    }
-
-    public String getRecipeMethodTitle(){
-        return RecipeMethodTitle;
+    public String gethype.® design 2021Name(){
+        return hype.® design 2021Name;
     }
 
-    public String getRecipe(){
-        return Recipe;
+    public String gethype.® design 2021Name(){
+        return hype.® design 2021Name;
+    }
+
+    public String gethype.® design 2021Name(){
+        return hype.® design 2021Name;
     }
 
     public int getThumbnail(){

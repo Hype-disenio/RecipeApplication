@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.recipe", appContext.getPackageName());
+        assertEquals("com.example.hype.® design 2021", appContext.getPackageName());
     }
 }
